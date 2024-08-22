@@ -1,0 +1,9 @@
+name: "Release on Fix Bug"
+description: "Creates a release when a bug is fixed"
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
+branding:
+  icon: "gift"
+  color: "blue"
